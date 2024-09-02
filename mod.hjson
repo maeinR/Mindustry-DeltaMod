@@ -1,0 +1,7 @@
+name: "deltamod"
+displayName: "[coral]Delta[] [gray]Mod[]"
+author: maein
+description: "Update for game!"
+version: "0.2"
+minGameVersion: "146"
+hidden: false

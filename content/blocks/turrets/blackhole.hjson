@@ -1,0 +1,40 @@
+type: turret
+name: Black Hole
+description: -
+health: 4500
+size: 5
+recoil: 6
+reload: 180
+range: 336
+rotatespeed: 12
+maxAmmo: 180
+//consumes: { power: 60 }
+ammoPerShot: 20
+ammoTypes: {
+    copper: { 
+        type: MissileBulletType
+        damage: 240
+        lifetime: 80
+        drag: -0.03
+        splashDamage: 520
+        splashDamageRadius: 56
+        homingPower: 0.2
+        homingRange: 120
+        width: 10
+        height: 20
+        frontColor: 6a6c7a
+        backColor: ffffff
+        trailColor: 6a6c7a
+        weaveMag: 4
+        weaveScale: 8
+    }
+}
+requirements: [ 
+    graphite/750
+    silicon/700
+    thorium/420
+    plastanium/250
+    surge-alloy/175
+]
+category: turret
+research: duo
